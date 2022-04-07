@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './SortingVisualizer.css';
 import { mergeSort } from '../SortingAlgorithms/MergerSort';
 
@@ -6,7 +6,7 @@ import { mergeSort } from '../SortingAlgorithms/MergerSort';
 const ANIMATION_SPEED_MS = 1;
 
 // Change this value for the number of bars (value) in the array.
-const NUMBER_OF_ARRAY_BARS = 310;
+
 
 // This is the main color of the array bars.
 const PRIMARY_COLOR = 'turquoise';
